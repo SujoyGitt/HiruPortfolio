@@ -402,7 +402,7 @@ $(document).ready(function () {
   //----------
   let progress = document.getElementById("pregressbar");
   let winnerwidth =wheell.innerWidth;
-  console.log(winnerwidth);
+ 
   let totalHeight = wheell.scrollWidth-80;
   wheel.addEventListener('wheel',function(){
   let progressHeight = (wheell.scrollLeft/totalHeight)*90 ;
