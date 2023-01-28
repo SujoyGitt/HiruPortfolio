@@ -1,0 +1,115 @@
+
+#Portfolio {
+  width: 100%;
+  height: auto;
+}
+#Portfolio .port {
+  width: 60%;
+  margin: auto;
+  margin-top: 30px;
+  overflow: hidden;
+
+  padding: 5px;
+  /* background-color: red; */
+}
+
+#Portfolio .port .slice {
+  width: 300%;
+  display: flex;
+  /* transition: 0s cubic-bezier(0.895, 0.03, 0.685, 0.22); */
+}
+#Portfolio .port .target {
+  /* background-color: red; */
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+#Portfolio .port .target svg {
+  display: flex;
+  /* padding: 5px; */
+  justify-content: center;
+  margin: 20px 10px;
+  fill: none;
+  transform: rotate(14deg);
+  stroke:var(--primari-color);
+  cursor: pointer;
+  transform: 1s;
+  width: 15px;
+  height: 15px;
+   /* -webkit-box-reflect: below 5px linear-gradient(transparent,transparent,rgba(255, 255, 255, 0.429)); */
+
+}
+.border {
+  fill: var(--primari-color) !important;
+  /* opacity: 1; */
+}
+#Portfolio .port .target svg circle {
+  /* fill: var(--primari-color); */
+  opacity: 0;
+}
+.active {
+  opacity: 1 !important;
+  transition: 0.5s;
+}
+#Portfolio .port .slice .slice-item {
+  display: flex;
+  /* width: 30%; */
+  width: 100%;
+  /* justify-content: space-around; */
+  align-items: center;
+  padding: 0 2%;
+}
+
+#Portfolio .port .slice .slice-item .slice-item1 {
+  width: 45%;
+  /* background-color: red; */
+}
+
+#Portfolio .port .slice .slice-item .slice-item1 svg {
+  width: 100%;
+  border-radius: 10px;
+  fill: var(--primari-color);
+  /* background-color: gold; */
+  height: 100%;
+ 
+}
+
+#Portfolio .port .slice .slice-item .slice-item2 {
+  width: 45%;
+
+  margin-left: 10%;
+}
+#Portfolio .port .slice .slice-item .slice-item2 h2 {
+  font-family: var(--ffm);
+  font-weight: 500;
+  padding: 20px 0;
+  color: rgb(79, 79, 79);
+}
+#Portfolio .port .slice .slice-item .slice-item2 p {
+  font-size: 17px;
+  /* width: 85%; */
+  line-height: 28px;
+  color: rgb(130, 130, 130);
+  font-family: var(--ffmm);
+  font-weight: 200;
+}
+#Portfolio .port .slice .slice-item .slice-item2 button {
+  margin: 20px 0;
+  border: none;
+  background-color: var(--primari-color);
+  padding: 10px;
+  border-radius: 5px;
+  color: rgb(236, 236, 236);
+  display: flex;
+  align-items: center;
+  transition: 0.1s;
+  cursor: pointer;
+}
+#Portfolio .port .slice .slice-item .slice-item2 button:hover {
+  font-size: 16px;
+}
+#Portfolio .port .slice .slice-item .slice-item2 button svg {
+  width: 25px;
+  height: 25px;
+  fill: rgb(236, 236, 236);
+}

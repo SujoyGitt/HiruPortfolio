@@ -1,0 +1,183 @@
+
+#Qualification {
+  width: 100%;
+
+  height: 100vh;
+}
+
+#Qualification #work {
+  /* background-color: rgb(237, 229, 181); */
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+#Qualification #work h2 {
+  margin-right: 50px;
+
+  color: rgb(121, 121, 121);
+  font-family: var(--ffmm);
+  font-weight: 400;
+  cursor: pointer;
+  /* background: #000; */
+  padding: 6px;
+  transition: 0.2s cubic-bezier(0.075, 0.82, 0.165, 3);
+}
+#Qualification #work h2:hover {
+  transform: scale(1.1);
+  color: var(--primari-color);
+}
+
+.active {
+  color: var(--primari-color) !important;
+  fill: var(--primari-color) !important;
+
+  letter-spacing: 3px;
+}
+.remove {
+  color: #797979 !important;
+  fill: #797979 !important;
+}
+#Qualification #work svg:nth-child(1) {
+  width: 30px;
+  height: 30px;
+  transform: translate(-5px, 7px);
+  fill: var(--primari-color);
+  stroke: var(--primari-color);
+}
+#Qualification #work h2 .ww {
+  transform: scale(0.8) translate(-5px, 7px);
+}
+
+#Qualification #work h2:hover svg {
+  fill: var(--primari-color);
+  stroke: var(--primari-color);
+}
+#Qualification .tab {
+  width: 100%;
+  /* height: 200px; */
+  /* background-color: rgb(24, 222, 6); */
+  margin: auto;
+  margin-top: 10px;
+  position: relative;
+  padding: 20px;
+}
+#Qualification .tab .fast-eduction {
+  /* background-color: rgba(22, 208, 165, 0.518); */
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  /* left: 15%; */
+  width: 100%;
+  left: 0;
+  margin-top: 30px;
+  /* height: 500px; */
+}
+
+.onee {
+  opacity: 0;
+}
+#Qualification .tab .two {
+  opacity: 0;
+  transition: 0.5s;
+  transform: translateX(-20px);
+}
+.twoo {
+  opacity: 1 !important;
+}
+#Qualification .tab .fast-eduction .fast1 {
+  /* background-color: rgba(22, 81, 208, 0.518); */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+#Qualification .tab .fast-eduction .fast2 {
+  background-color: var(--primari-color);
+  width: 2px;
+  height: 200px;
+  margin: 0 40px;
+  position: relative;
+}
+#Qualification .tab .fast-eduction .fast2::after {
+  position: absolute;
+  min-width: 15px;
+  min-height: 15px;
+  left: -300%;
+
+  background-color: var(--primari-color);
+  top: -1%;
+  content: "";
+  border-radius: 50%;
+}
+#Qualification .tab .fast-eduction .fast2 .cen {
+  width: 15px;
+  height: 15px;
+  background-color: var(--primari-color);
+  border-radius: 50%;
+  position: absolute;
+  top: 48%;
+  left: -330%;
+}
+
+#Qualification .tab .fast-eduction .fast2::before {
+  position: absolute;
+  min-width: 15px;
+  min-height: 15px;
+  left: -300%;
+  background-color: var(--primari-color);
+  bottom: -1%;
+
+  content: "";
+  border-radius: 50%;
+}
+#Qualification .tab .fast-eduction .fast3 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  transform: translateY(35px);
+}
+#Qualification .tab .one .fast3 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  transform: translateY(0px);
+  /* background-color: red; */
+}
+#Qualification .tab .one .fast3 .se:nth-child(1) {
+  /* background-color: red; */
+  margin-bottom: 100px;
+}
+#Qualification .tab .one .fast1 .se:nth-child(2) {
+  /* background-color: red; */
+  margin-bottom: 70px;
+}
+
+#Qualification .tab .fast-eduction .se h3 {
+  color: rgb(58, 58, 58);
+  font-family: var(--ffmm);
+  font-weight: 300;
+  letter-spacing: 1px;
+}
+#Qualification .tab .fast-eduction .se h6 {
+  color: var(--primari-color);
+  font-family: var(--ffmm);
+  font-weight: 300;
+  padding: 2px 0;
+  font-size: 14px;
+  letter-spacing: 1px;
+}
+#Qualification .tab .fast-eduction .se span {
+  color: #a1a1a1;
+  font-family: var(--ffmm);
+
+  letter-spacing: 1px;
+  font-size: 12px;
+}
+#Qualification .tab .fast-eduction svg {
+  width: 15px;
+  height: 15px;
+  transform: translate(-5px, 3px);
+  fill: #5f5f5f;
+}
+#Qualification .tab .fast-eduction #tr {
+  transform: translateY(70px);
+}
