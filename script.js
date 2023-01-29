@@ -1,13 +1,11 @@
+ //loading start
 
-window.addEventListener("load",()=>{
-
-  document.querySelector(".loading").remove();
+ window.addEventListener("load",()=>{
+    document.querySelector(".loading").remove();
 })
-
-$(document).ready(function () {
-  //loading start
-
 //loading end
+
+  $(document).ready(function () {
   //===========theme===========
   const colorPicker = document.getElementById("color-picker");
 
@@ -507,4 +505,5 @@ setInterval(() => {
   // [[[[[[[[[[[[[[[[[]]]]]]]]]]]]]]]]]
 
 });
+
 

@@ -25,7 +25,7 @@
   width: 100%;
   gap: 6px;
   height: 100vh;
-  z-index: 1100;
+  /* z-index: 110; */
   background-color: rgb(240, 247, 250);
  }
  
@@ -212,7 +212,7 @@ html {
   cursor: pointer;
   transition: 0.3s cubic-bezier(0.785, 0.135, 0.15, 2);
   transform: translateX(65%);
-  z-index: -9;
+  z-index: 999;
 }
 .pop {
   transform: translateX(0%);
@@ -229,7 +229,6 @@ html {
   border-radius: 22% 78% 78% 22% / 50% 50% 50% 50%;
   background: rgba(163, 163, 163, 0.192);
   fill: var(--primari-color);
-
   transform: translateX(-12px);
   transition: 0.2s cubic-bezier(0.68, -0.55, 0.265, 1.55);
 }
@@ -322,7 +321,7 @@ header nav {
 
   align-items: center;
   padding: 0px 100px;
-  z-index: 999;
+  z-index: 1000;
   backdrop-filter: blur(11px);
   stroke: var(--primari-color);
   /* background-color: red !important; */
